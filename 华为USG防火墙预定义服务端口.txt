@@ -1,0 +1,141 @@
+如下内容是华为预定义服务内容， 供参考。
+
+
+
+HRP_M<GM202-BORDER-FW-USG6620-01>display predefined-service 
+2024-10-29 15:43:13.495 +08:00
+ ad                                udp/1773 
+ ah                                ah packet (ID of internet protocol:51) 
+ bgp                               tcp/179 
+ biff                              udp/512 
+ bootpc                            udp/68 
+ bootps                            udp/67 
+ chargen                           tcp/19 
+ daytime                           tcp/13 
+ diameter                          tcp/3868, sctp/3868 
+ discard-tcp                       tcp/9 
+ discard-udp                       udp/9 
+ dns                               udp/53 
+ dns-tcp                           tcp/53 
+ dnsix                             udp/90 
+ echo-tcp                          tcp/7 
+ echo-udp                          udp/7 
+ esp                               esp packet (ID of internet protocol:50) 
+ exec                              tcp/512 
+ fin-rst                           tcp fin and rst packet 
+ finger                            tcp/79 
+ first-fin                         tcp first fin packet 
+ fragment                          fragment packet 
+ ftp                               tcp/21 
+ ftp-data                          ftp data protocol ( dynamic port ) 
+ gopher                            tcp/70 
+ gre                               gre packet (ID of internet protocol:47) 
+ gtpc                              udp/2123 ( gtpv1/gtpv2 ) 
+ gtpu                              udp/2152 ( gtpv1 ) 
+ gtpv0                             udp/3386 
+ h225                              tcp/1720 
+ h245                              h245 protocol 
+ h323                              tcp/1719 
+ h323-rtcp                         h323-rtcp protocol ( dynamic port ) 
+ h323-rtp                          h323-rtp protocol ( dynamic port ) 
+ h323-t120                         h323-t120 protocol ( dynamic port ) 
+ hostname                          tcp/101 
+ http                              tcp/80 
+ https                             tcp/443 
+ hwcc                              udp/10000 
+ icmp                              icmp protocol (ID of internet protocol:1) 
+ icmpv6                            icmpv6 protocol (ID of internet protocol:58) 
+ igmp                              igmp protocol 
+ ils                               tcp/1002 
+ imap                              tcp/143 
+ imaps                             tcp/993 
+ ipinip                            ipinip protocol 
+ irc                               tcp/194 
+ kerberos-tcp                      tcp/88 
+ kerberos-udp                      udp/88 
+ klogin                            tcp/543 
+ kshell                            tcp/544 
+ l2tp                              udp/1701 
+ login                             tcp/513 
+ lpd                               tcp/515 
+ mgcp                              udp/2727 
+ mgcp-rtcp                         mgcp-rtcp protocol ( dynamic port ) 
+ mgcp-rtp                          mgcp-rtp protocol ( dynamic port ) 
+ mms                               tcp/1755 
+ mms-rtcp                          mms-rtcp protocol ( dynamic port ) 
+ mms-rtp                           mms-rtp protocol ( dynamic port ) 
+ mobileip-ag                       udp/434 
+ mobileip-mn                       udp/435 
+ msn                               tcp/1863 
+ msn-audio                         udp/7001 
+ msn-derived                       msn-derived protocol ( dynamic port ) 
+ msn-discard                       udp/9 
+ msn-stun                          udp/3478 
+ multihome                         sctp multihome table 
+ mysql                             tcp/3306 
+ nameserver                        udp/42 
+ netbios-datagram                  udp/138 
+ netbios-name                      udp/137 
+ netbios-session                   tcp/139 
+ netbios-ssn                       udp/139 
+ nntp                              tcp/119 
+ ntp                               udp/123 
+ ospf                              ospf protocol 
+ p2p                               p2p protocol 
+ pop2                              tcp/109 
+ pop3                              tcp/110 
+ pop3s                             tcp/995 
+ portalserver                      udp/62314 
+ pptp                              tcp/1723 
+ pptp-gre                          pptp gre 
+ qq                                udp/8000 
+ qq-derived                        qq-derived protocol ( dynamic port ) 
+ radius                            udp/1812 
+ radius-accounting                 udp/1813 
+ ras                               udp/1719 
+ rdp-tcp                           tcp/3389 
+ rdp-udp                           udp/3389 
+ rip                               udp/520 
+ rpc                               tcp/135, udp/135 
+ rsh                               tcp/514 
+ rsh-data                          remote shell data protocol ( dynamic port ) 
+ rtsp                              udp/554, tcp/554 
+ rtsp-rtcp                         rtcp protocol ( dynamic port ) 
+ rtsp-rtp                          rtp protocol ( dynamic port ) 
+ sccp                              tcp/2000 
+ sccp-rtp                          sccp-rtp ( dynamic port ) 
+ sctp                              sctp packet 
+ sctp-close                        sctp abort or shutdown packet 
+ sctp-init                         sctp init packet 
+ sip                               udp/5060, tcp/5060 
+ sip-rtcp                          sip-rtcp protocol ( dynamic port ) 
+ sip-rtp                           sip-rtp protocol ( dynamic port ) 
+ smb                               tcp/445 
+ smtp                              tcp/25 
+ smtps                             tcp/465 
+ snmp                              udp/161 
+ snmptrap                          udp/162 
+ sqlnet                            tcp/1521 
+ sqlnet-data                       sqlnet-data protocol ( dynamic port ) 
+ sqlserver                         tcp/1433 
+ ssh                               tcp/22 
+ stun-derived                      stun-derived protocol ( dynamic port ) 
+ sunrpc-tcp                        tcp/111 
+ sunrpc-udp                        udp/111 
+ syn                               syn packet 
+ syslog                            udp/514 
+ tacacs                            tcp/49 
+ tacacs-ds                         udp/65 
+ talk-tcp                          tcp/517 
+ talk-udp                          udp/517 
+ tcp                               tcp packet (ID of internet protocol:6) 
+ telnet                            tcp/23 
+ tftp                              udp/69 
+ time-tcp                          tcp/37 
+ time-udp                          udp/37 
+ udp                               udp packet (ID of internet protocol:17) 
+ uucp                              tcp/540 
+ vxlan                             udp/4789 
+ who                               udp/513 
+ whois                             tcp/43 
+ xdmcp                             udp/177 
